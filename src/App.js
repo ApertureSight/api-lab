@@ -29,7 +29,7 @@ function App() {
       <h1>Christmas on Mars at..</h1>
       <input aria-label="date"
         type="range"
-        min="2008" max="2021"
+        min="2010" max="2017"
         value={year}
         onChange={(e) => {
           setYear(e.target.value);
