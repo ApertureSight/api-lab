@@ -18,7 +18,7 @@ export function MarsGallery(props) {
     const imageEls = props.images.slice(0,3).map((ImageData, index) =>
 
     <div key ={index} className={`marsImage ${currentEl === index ? "showImage" : "hideImage"}`}>
-    <img src={ImageData.img_src} alt="Mars Christmas Picture"></img>
+    <img src={ImageData.img_src} alt="Mars Christmas"></img>
 
     </div>
 );
